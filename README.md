@@ -7,13 +7,20 @@ Number of columns: 986
 
 Number of lines: 2783
 
-
-- number of columns and lines may be incorrect. Notes on assignment indicate a transposition of columns to rows may be required, thus changing the number of columns and lines
+- number of columns and lines may be incorrect. 
+Notes on assignment indicate a transposition of columns to rows may be required, thus changing the number of columns and lines
 
 
 ## Info on file structure and dimensions on snp position file:
+
 File size: 84 K
 
 Number of columns: 15
 
 Number of lines: 984
+
+## Codes used:
+
+For columns:           $ awk -F "\t" '{print NF; exit}'  
+For line count:        $ wc -l  
+For file size:         $ du -h 
