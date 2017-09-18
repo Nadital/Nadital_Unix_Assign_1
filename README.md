@@ -2,16 +2,16 @@
 
 ## Info on file structure and dimensions on fang et al file:
 File size: 11M
-- Code: $ du -h fang_et_al.txt
+- Code: $ du -h fang_et_al_genotypes.txt
 
 File type: ASCII text, with very long lines
-- Code: $ file fang_et_al.txt
+- Code: $ file fang_et_al_genotypes.txt
 
 Number of columns: 986 
-- Code: $ awk -F "/t" '{print NF; exit}' fang_et_al.txt
+- Code: $ awk -F "/t" '{print NF; exit}' fang_et_al_genotypes.txt
 
 Number of lines: 2783
-- Code: $ wc -l fang_et_al.txt
+- Code: $ wc -l fang_et_al_genotypes.txt
 
 
 
