@@ -7,7 +7,8 @@ Number of columns: 986
 
 Number of lines: 2783
 
-	* number of columns and lines may be incorrect. Notes on assignment indicate a transposition of columns to rows may be required, thus changing the number of columns and lines
+
+- number of columns and lines may be incorrect. Notes on assignment indicate a transposition of columns to rows may be required, thus changing the number of columns and lines
 
 
 ## Info on file structure and dimensions on snp position file:
